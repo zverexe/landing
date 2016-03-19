@@ -1,0 +1,185 @@
+@import url("header.css");
+@import url("slider.css");
+@import url("features.css");
+@import url("about.css");
+@import url("reviewes.css");
+@import url("screenshot.css");
+@import url("demo.css");
+@import url("download.css");
+@import url("footer.css");
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+
+/* end of reset browser styles */
+
+@font-face {
+    font-family: "Helveticaneuecyr";
+    src: url('../fonts/helveticaneuecyr-bold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Helveticaneuecyr";
+    src: url('../fonts/helveticaneuecyr-italic.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Helveticaneuecyr-Roman";
+    src: url('../fonts/helveticaneuecyr-roman.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Helveticaneuecyr";
+    src: url('../fonts/helveticaneuecyr-lightitalic.otf');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Helveticaneuecyr";
+    src: url('../fonts/helveticaneuecyr-light.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Helveticaneuecyr";
+    src: url('../fonts/helveticaneuecyr-ultralight.otf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Helveticaneuecyr";
+    src: url('../fonts/helveticaneuecyr-medium.otf');
+    font-weight: 600;
+}
+
+
+/*slider */
+
+
+/*about*/
+
+
+/*features*/
+
+
+/*reviewes*/
+
+
+/*screenshot*/
+
+
+/*demo*/
+
+
+/*download*/
+
+
+/*footer*/

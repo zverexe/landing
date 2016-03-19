@@ -1,0 +1,113 @@
+    .slider {
+        height: 1081px;
+        background-image: url(../img/Layer-3.png);
+        background-size: cover;
+    }
+    
+    .slider .wrapper {
+        width: 958px;
+        margin: auto;
+        display: flex;
+        padding: 50px;
+    }
+    
+    .iphone {
+        display: flex;
+        padding-top: 130px;
+        margin-right: 100px;
+    }
+    
+    .slider_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #ffffff;
+        font-size: 46px;
+        font-family: "Helveticaneuecyr";
+        font-weight: 100;
+        margin-left: 60px;
+    }
+    
+    .iphone h2 {
+        font-size: 60px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    
+    .slider_text2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+    
+    .lumia {
+        display: none;
+    }
+    
+    @media screen and (max-width:768px) {
+        .slider {
+            height: 100%;
+        }
+        .slider .wrapper {
+            width: 100%;
+            margin-left: -5%;
+        }
+        .iphone {
+            display: none;
+        }
+        .slider_text2 {
+            margin-left: 8%;
+            color: #ffffff;
+            font-size: 20px;
+            font-family: "Helveticaneuecyr";
+            font-weight: 100;
+            line-height: 25px;
+        }
+        .slider_text2 h2 {
+            margin-bottom: 5%;
+        }
+        .lumia {
+            display: flex;
+            margin: 0px auto;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .lumia img {
+            max-width: 160px;
+            min-width: 80px;
+        }
+    }
+    
+    @media screen and (max-width:500px) {
+        .slider .wrapper {
+            width: 90%;
+            margin-right: 10%;
+        }
+        .slider_text2 {
+            margin-left: 3%;
+            line-height: normal;
+        }
+        .lumia img {
+            max-width: 140px;
+            min-width: 60px;
+        }
+    }
+    
+    @media screen and (max-width:400px) {
+        .slider .wrapper {
+            width: 75%;
+            margin-right: 20%;
+            margin-left: -1%;
+        }
+        .lumia img {
+            max-width: 120px;
+            min-width: 50px;
+        }
+        .slider_text2 {
+            margin-left: 1.5%;
+            font-size: 15px;
+            line-height: normal;
+        }
+    }
